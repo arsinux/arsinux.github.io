@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+{% for category in site.categories %}
+  <h1>{{ category | first }}</h1>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        <li><span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    {% endfor %}
+    </ul>
+</br>
+{% endfor %}

@@ -1,0 +1,17 @@
+- title: Home
+  url: /
+
+- title: Categories
+  url: /categories
+# 
+# - title: Websites
+#   url: /websites
+
+- title: About
+  url: /me
+
+- title: Github
+  url: https://github.com/arsinux
+
+- title: Twitter
+  url: https://twitter.com/arsinux
