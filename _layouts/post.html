@@ -7,7 +7,15 @@ layout: default
     <h1 class="post__title">{{ page.title }}</h1>
     <p class="post__date">{{ page.date | date: '%B %-d, %Y' }}</p>
     <p class="post__meta">{{ tags_content }}</p>
-    <div class="post__content"?>
+	Categories:
+	  {% for category in page.categories %}
+		<a href="/categories#{{ category }}" class="category">{{ category }}</a>
+	  {% endfor %}
+	Tags:
+	  {% for tag in page.tags %}
+		<a href="/tags#{{ tag }}" class="tag">{{ tag }}</a>
+	  {% endfor %}
+	<div class="post__content"?>
         {{ content }}
     </div>
 </div>

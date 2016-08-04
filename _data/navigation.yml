@@ -3,9 +3,9 @@
 
 - title: Categories
   url: /categories
-# 
-# - title: Websites
-#   url: /websites
+
+- title: Tags
+  url: /tags
 
 - title: About
   url: /me
