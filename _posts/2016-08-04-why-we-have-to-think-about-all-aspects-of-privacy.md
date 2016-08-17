@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why we have to think about all aspects of privacy
-category: [Beyond 0100001]
+category: [Beyond0100001]
 tag: [privacy, ai, ethics]
 ---
 
